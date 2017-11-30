@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: Hola
+version: v1
+baseUri: http://localhost:8081/api
+
+/Hola:
+  get:
+    body:
+      application/json:
+    responses:
+      200:
+        body:
+          application/json:
+            example:  |
+              {"Mensaje":"Hola Mundo"}
+              
